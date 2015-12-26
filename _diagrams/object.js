@@ -1,0 +1,9 @@
+ComplexDiagram(
+	Terminal('{'),
+	ZeroOrMore(
+		Sequence(
+			NonTerminal('string'),
+			Terminal(':'),
+			NonTerminal('value')),
+		','),
+	Terminal('}'))

@@ -1,0 +1,91 @@
+body
+{
+	background-color: #FFFAF7;
+	color: #2F2F2F;
+	font-family: "Times New Roman", "Times", Serif;
+	font-size: 16px;
+}
+
+a,
+a:visited
+{
+	color: #2D4C9F ;/*#2D4C82 #826D6D;*/
+	text-decoration: none;
+}
+
+a:hover,
+a:focus
+{
+	color: #2F2F2F;
+	text-decoration: underline;
+}
+
+h1
+{
+	text-align: center;
+}
+
+hr
+{
+	border: 0;
+	height: 1px;
+	background: #333;
+	background-image: linear-gradient(to right, #ccc, #2F2F2F, #ccc);
+}
+
+.site-header,
+.page-content,
+footer
+{
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.site-header hr,
+footer hr
+{
+	margin-left: 1ex;
+	margin-right: 1ex;
+}
+
+.page
+{
+	margin-left: 1ex;
+	margin-right: 1ex;
+}
+
+ @media only screen and (min-width : 768px)
+ {
+	.grammar
+	{
+		float: right;
+		margin-left: 2ex;
+		border: 1px solid #2F2F2F;
+		padding: 2ex;
+	}
+ }
+
+.grammar
+{
+
+	font-style: italic;
+	font-size: 14px;
+}
+
+.grammar h2
+{
+	font-style: normal;
+	margin-top: 0;
+}
+
+.grammar code
+{
+	font-style: normal;
+	font-weight: bold;
+}
+
+footer
+{
+	text-align: center;
+	font-size: 80%;
+}
