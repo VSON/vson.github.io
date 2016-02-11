@@ -210,7 +210,7 @@ eol
 
 A VSON document or message is encoded in one of the Unicode encodings UTF-8, UTF-16, or UTF-32.  UTF-8 is the preferred encoding.  VSON generators shall not emit byte order marks for UTF-8.  In some circumstances it may be necessary to send VSON through an ASCII transmission channel.  This is acceptable upon agreement of both parties, but the sender must be careful to escape all Unicode characters above U+007F in strings and avoid the usage of such characters in comments.
 
-A VSON document or message is a single VSON value.  White space and comments may occur between tokens and is not significant.  The proper MIME type for VSON is '`application/vson`'.
+A VSON document or message is a single VSON value or no value (i.e. empty except for white space and comments).  White space and comments may occur between tokens and is not significant.  The proper MIME type for VSON is '`application/vson`'.
 
 ### Values
 
