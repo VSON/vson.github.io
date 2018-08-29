@@ -5,7 +5,7 @@ author:
   email: Jeff@WalkerCodeRanger.com
 description:
   "VSON (Very Simple Object Notation) is a lightweight data-interchange format. It is a successor and superset of the popular JSON (JavaScript Object Notation) format. VSON improves on human readability and writablity, date and time support, Unicode handling and data portability."
-url: "http://VSON.org"
+url: "https://VSON.org"
 
 permalink: /blog/:year/:month/:title
 paginate: 5
